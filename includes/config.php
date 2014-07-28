@@ -6,7 +6,7 @@
 session_start();
 
 /* DIR constants are absolute filesystem paths (for PHP files) */
-define('DIR_ROOT', $_SERVER['DOCUMENT_ROOT']);
+define('DIR_ROOT', $_SERVER['DOCUMENT_ROOT'] . '/');
 define('DIR_INCLUDES', DIR_ROOT . 'includes/');
 define('DIR_FUNCTIONS', DIR_INCLUDES . 'functions/');
 define('DIR_CLASSES', DIR_INCLUDES . 'classes/');
